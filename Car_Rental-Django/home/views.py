@@ -1,0 +1,10 @@
+"""
+Developed by MASA
+All Rights Reserved.
+"""
+
+from django.shortcuts import render
+
+
+def home_page(request):
+    return render(request, "home/index.html")
